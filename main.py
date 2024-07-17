@@ -23,7 +23,7 @@ posts = [
 
 @app.get("/")
 def root():
-    return {"message": "Hello World"}
+    return {"message": "heyyyyy"}
 
 def verify_user(data: UserLoginSchema):
     for user in users:
