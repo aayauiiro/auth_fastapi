@@ -21,7 +21,7 @@ posts = [
 ]
 
 
-@app.get("/userss")
+@app.get("/")
 def root():
     return {"message": "heyyyyy"}
 
